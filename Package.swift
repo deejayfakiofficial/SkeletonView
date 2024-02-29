@@ -17,8 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "SkeletonView",
-            path: "SkeletonViewCore/Sources",
-            resources: [.copy("Supporting Files/PrivacyInfo.xcprivacy")],
+            path: "SkeletonViewCore/Sources"
         ),
         .testTarget(
             name: "SkeletonViewTests",
